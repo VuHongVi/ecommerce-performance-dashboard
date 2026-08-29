@@ -1,0 +1,57 @@
+# ============================================================
+# Local and full datasets
+# ============================================================
+data/raw/
+data/full/
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.zip
+
+# Keep portfolio-safe sample files
+!data/sample/
+!data/sample/**
+
+# ============================================================
+# Secrets and credentials
+# ============================================================
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials*.json
+secrets*.json
+*.key
+*.pem
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# Power BI temporary files
+# ============================================================
+~$*.pbix
+*.pbix.autosave
+*.tmp
+*.bak
+
+# Power BI Project local cache, if used later
+.pbi/localSettings.json
+.pbi/cache.abf
+
+# ============================================================
+# Editors and operating systems
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
