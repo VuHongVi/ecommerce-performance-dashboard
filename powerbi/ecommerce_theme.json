@@ -1,0 +1,41 @@
+﻿{
+  "name": "E-commerce Performance Dashboard",
+  "dataColors": [
+    "#2563EB",
+    "#14B8A6",
+    "#F59E0B",
+    "#8B5CF6",
+    "#EF4444",
+    "#06B6D4",
+    "#84CC16",
+    "#64748B"
+  ],
+  "background": "#F5F7FA",
+  "foreground": "#0F172A",
+  "tableAccent": "#2563EB",
+  "good": "#16A34A",
+  "neutral": "#F59E0B",
+  "bad": "#DC2626",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#0F172A"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#0F172A"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#334155"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#64748B"
+    }
+  }
+}
